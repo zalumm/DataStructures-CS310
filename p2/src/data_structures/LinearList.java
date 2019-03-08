@@ -1,14 +1,16 @@
 /**
  * Program 2 1-2 Line Description of class/program CS-310 Date : 3/5/2019
  *
- * @autor Salim Aweys csscXXXX
+ * @author Salim Aweys csscXXXX
  */
 package data_structures;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+import java.util.ConcurrentModificationException;
 
 public class LinearList<E extends Comparable<E>> implements LinearListADT<E> {
+  private int modCount;
   private int currentSize;
   private Node<E> head;
   private Node<E> tail;
@@ -27,7 +29,7 @@ public class LinearList<E extends Comparable<E>> implements LinearListADT<E> {
     if (currentSize == 0) head = tail = newNode;
     else tmpHead.previous = newNode;
     currentSize++;
-    // TODO modCount++
+    modCount++;
 
     return true;
   }
@@ -41,22 +43,21 @@ public class LinearList<E extends Comparable<E>> implements LinearListADT<E> {
     if (currentSize == 0) head = newNode;
     else tmpTail.next = newNode;
     currentSize++;
-    // TODO modCount++
+    modCount++;
     return false;
   }
 
   @Override
   public E removeFirst() {
-    if (currentSize == 0) return null;
+    if (currentSize == 0) throw new NoSuchElementException();
     E data = head.data;
-    System.out.println("rmFirst" + head.data);
     Node<E> headTmp = head;
     if (head == tail) tail = null;
     else head.next.previous = null;
     head = head.next;
     headTmp.next = null;
     currentSize--;
-    // TODO modCount++
+    modCount++;
 
     return data;
   }
@@ -65,24 +66,47 @@ public class LinearList<E extends Comparable<E>> implements LinearListADT<E> {
   public E removeLast() {
     if (currentSize == 0) throw new NoSuchElementException();
     E data = tail.data;
-    Node<E> tailPrev = tail.previous;
+    Node<E> tailTmp = tail;
     if (head == tail) head = null;
     else tail.previous.next = null;
     tail = tail.previous;
-    tailPrev.previous = null;
+    tailTmp.previous= null;
     currentSize--;
-    // TODO modCount++
+    modCount++;
     return data;
   }
 
   @Override
   public E remove(E obj) {
+	  int count = 0 ; 
+	  Node<E> index = head; 
+	  E foundData = obj; 
+	  while(count < currentSize) {
+		  if (((Comparable<E>) index.data).compareTo(foundData) == 0) {
+			  if(index == head) 
+				  return this.removeFirst(); 
+			  else if(index == tail)
+				  return this.removeLast();
+			  else {
+				  index.previous.next = index.next;
+				  index.next.previous = index.previous;
+				  index.next = index.previous =  null;
+				  currentSize--;
+				  modCount++;
+				  return index.data;
+			  }
+				  
+		  }
+		  index = index.next;
+		  count++;
+		  
+	  }
     return null;
   }
 
   @Override
   public E peekFirst() {
-    if (head == null) throw new NoSuchElementException();
+    if (head == null) return null;
     return head.data;
   }
 
@@ -94,18 +118,24 @@ public class LinearList<E extends Comparable<E>> implements LinearListADT<E> {
 
   @Override
   public boolean contains(E obj) {
-    return false;
+	  return find(obj) != null;
   }
 
   @Override
   public E find(E obj) {
-    return null;
+      for (E temp : this)
+          if (((Comparable<E>) obj).compareTo(temp) == 0)
+              return temp;
+return null;
+//
+
   }
 
   @Override
   public void clear() {
     currentSize = 0;
     head = tail = null;
+    modCount++;
   }
 
   @Override
@@ -125,8 +155,34 @@ public class LinearList<E extends Comparable<E>> implements LinearListADT<E> {
 
   @Override
   public Iterator<E> iterator() {
-    return null;
+	  return new IteratorHelper();
   }
+  private class IteratorHelper implements Iterator<E> {
+	  Node<E> index = head;
+      int count = 0;
+      int expectedModCount = modCount;
+
+
+      @Override
+      public boolean hasNext() {
+          return count < currentSize;
+      }
+
+      @Override
+      public E next() {
+          if (modCount != expectedModCount)
+              throw new ConcurrentModificationException();
+          if (!hasNext())
+              throw new NoSuchElementException();
+          E data = index.data;
+          index = index.next;
+          count++;
+          return data;
+
+
+      }
+
+}
 
   class Node<E> {
     E data;
