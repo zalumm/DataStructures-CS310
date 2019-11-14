@@ -1,0 +1,18 @@
+
+Fsquid:S1659î""Declare "tail" on a separate line.(ÕØÍÌøÿÿÿÿ8¼‰à­©-
+^squid:S1161è":Add the "@Override" annotation above this method signature(¦³üëûÿÿÿÿ8çµ°©-
+}squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(­ş¹‡ùÿÿÿÿ8¼‰à­©-
+Wsquid:S1197 "8Move the array designator from the variable to the type.(†°¡‡8çµ°©-
+fsquid:S2259Ô"BA "NullPointerException" could be thrown; "head" is nullable here.(‘¡–òùÿÿÿÿ8¼‰à­©-
+}squid:S2293÷"YReplace the type specification in this constructor call with the diamond operator ("<>").(­ş¹‡ùÿÿÿÿ8¼‰à­©-
+|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô„ÎÅúÿÿÿÿ8¼‰à­©-
+{squid:S3973–"WUse curly braces or indentation to denote the code conditionally executed by this "if".(è³‡ïøÿÿÿÿ8¼‰à­©-
+Isquid:S1659Ï"%Declare "current" on a separate line.(÷®ŸÕûÿÿÿÿ8¼‰à­©-
+Wsquid:S1197¬"8Move the array designator from the variable to the type.(Ï½‡Ü8çµ°©-
+tsquid:S3038~"Q"next" is defined in the "Iterator" interface and can be removed from this class.(“ŸÌîşÿÿÿÿ8çµ°©-
+Isquid:S1659™"%Declare "current" on a separate line.(÷®ŸÕûÿÿÿÿ8¼‰à­©-
+Isquid:S1659¼"%Declare "current" on a separate line.(÷®ŸÕûÿÿÿÿ8¼‰à­©-
+Bsquid:S1659"%Declare "maxSize" on a separate line.(äí¦y8¼‰à­©-
+Dsquid:S1659"'Declare "tableSize" on a separate line.(äí¦y8¼‰à­©-
+wsquid:S1210f"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(–ôû‹8¯û£®©-
+^squid:S1161€":Add the "@Override" annotation above this method signature(¦³üëûÿÿÿÿ8¼‰à­©-

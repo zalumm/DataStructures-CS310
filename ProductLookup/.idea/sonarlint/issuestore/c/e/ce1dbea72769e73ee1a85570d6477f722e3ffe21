@@ -1,0 +1,167 @@
+
+\
+squid:S106”"9Replace this use of System.out or System.err by a logger.(äıÆ şÿÿÿÿ8û±ò¯©-
+\
+squid:S106¨"9Replace this use of System.out or System.err by a logger.(´ğˆáúÿÿÿÿ8±©û®©-
+Esquid:S1659""Declare "stop" on a separate line.(§“¥²şÿÿÿÿ8±©û®©-
+nsquid:S1192&"QDefine a constant instead of duplicating this literal "Now performing " 12 times.(³Š8±©û®©-
+V
+squid:S1068"9Replace this use of System.out or System.err by a logger.(Ùæ‘8±©û®©-
+W
+squid:S106–"9Replace this use of System.out or System.err by a logger.(Ùæ‘8±©û®©-
+‡squid:S4165°"cRemove this useless assignment; "array" already holds the assigned value along all execution paths.(¹¯›íúÿÿÿÿ8û±ò¯©-
+Msquid:S2140›")Use "java.util.Random.nextInt()" instead.(ÙÕø“ÿÿÿÿÿ8û±ò¯©-
+\
+squid:S106é"9Replace this use of System.out or System.err by a logger.(äıÆ şÿÿÿÿ8û±ò¯©-
+\
+squid:S106—"9Replace this use of System.out or System.err by a logger.(ò°Í üÿÿÿÿ8û±ò¯©-
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Åş°ıÿÿÿÿ8±©û®©-
+\
+squid:S106û"9Replace this use of System.out or System.err by a logger.(äıÆ şÿÿÿÿ8û±ò¯©-
+|squid:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(şÀ¶Ÿùÿÿÿÿ8±©û®©-
+Dsquid:S2129>"!Remove this "Integer" constructor(©¶İªüÿÿÿÿ8û±ò¯©-
+fsquid:S00112ó"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8û±ò¯©-
+U
+squid:S106}"9Replace this use of System.out or System.err by a logger.(³Š8û±ò¯©-
+Šsquid:S11921"gDefine a constant instead of duplicating this literal "ERROR, wrong value returned, expected " 6 times.(¼”¥Ğúÿÿÿÿ8±©û®©-
+W
+squid:S106¿"9Replace this use of System.out or System.err by a logger.(Ùæ‘8±©û®©-
+Esquid:S2129”"!Remove this "Integer" constructor(©¶İªüÿÿÿÿ8û±ò¯©-
+ksquid:S1192."MDefine a constant instead of duplicating this literal "ERROR, key " 12 times.(›ªàÛ8±©û®©-
+W
+squid:S106Ú"9Replace this use of System.out or System.err by a logger.(‚Ùûê8û±ò¯©-
+[
+squid:S106 "9Replace this use of System.out or System.err by a logger.(´ğˆáúÿÿÿÿ8û±ò¯©-
+Msquid:S1905œ")Remove this unnecessary cast to "String".(©¶İªüÿÿÿÿ8û±ò¯©-
+Lsquid:S2140h")Use "java.util.Random.nextInt()" instead.(ÙÕø“ÿÿÿÿÿ8±©û®©-
+Dsquid:S2129i"!Remove this "Integer" constructor(©¶İªüÿÿÿÿ8û±ò¯©-
+Msquid:S1905”")Remove this unnecessary cast to "String".(©¶İªüÿÿÿÿ8û±ò¯©-
+fsquid:S00112ö"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8û±ò¯©-
+\
+squid:S106"9Replace this use of System.out or System.err by a logger.(äıÆ şÿÿÿÿ8û±ò¯©-
+Lsquid:S1905>")Remove this unnecessary cast to "String".(©¶İªüÿÿÿÿ8û±ò¯©-
+fsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8û±ò¯©-
+}squid:S2293Õ"YReplace the type specification in this constructor call with the diamond operator ("<>").(õÆ‚êşÿÿÿÿ8û±ò¯©-
+Csquid:S1659Û"Declare "h" on a separate line.(ØÛ¶¸şÿÿÿÿ8û±ò¯©-
+\
+squid:S106"9Replace this use of System.out or System.err by a logger.(ò°Í üÿÿÿÿ8û±ò¯©-
+fsquid:S00112‡"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8û±ò¯©-
+[
+squid:S106d"9Replace this use of System.out or System.err by a logger.(ò°Í üÿÿÿÿ8û±ò¯©-
+esquid:S00112n"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8û±ò¯©-
+V
+squid:S106®"9Replace this use of System.out or System.err by a logger.(³Š8û±ò¯©-
+fsquid:S00112¡"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8û±ò¯©-
+osquid:S1192'"LDefine a constant instead of duplicating this literal " searches." 12 times.(«äåØÿÿÿÿÿ8±©û®©-
+[
+squid:S106H"9Replace this use of System.out or System.err by a logger.(äıÆ şÿÿÿÿ8û±ò¯©-
+Esquid:S2129×"!Remove this "Integer" constructor(†À”€üÿÿÿÿ8û±ò¯©-
+nsquid:S11922"KDefine a constant instead of duplicating this literal " but got " 12 times.(‘À…¢şÿÿÿÿ8±©û®©-
+W
+squid:S106ë"9Replace this use of System.out or System.err by a logger.(Ùæ‘8±©û®©-
+Lsquid:S2140V")Use "java.util.Random.nextInt()" instead.(ÙÕø“ÿÿÿÿÿ8û±ò¯©-
+\
+squid:S106ì"9Replace this use of System.out or System.err by a logger.(ò°Í üÿÿÿÿ8û±ò¯©-
+[
+squid:S106s"9Replace this use of System.out or System.err by a logger.(äıÆ şÿÿÿÿ8û±ò¯©-
+V
+squid:S106…"9Replace this use of System.out or System.err by a logger.(³Š8±©û®©-
+Lsquid:S1905i")Remove this unnecessary cast to "String".(©¶İªüÿÿÿÿ8û±ò¯©-
+esquid:S00112k"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8û±ò¯©-
+ˆsquid:S1192D"eDefine a constant instead of duplicating this literal "ERROR, wrong key returned, expected " 6 times.(Üí¥Ìûÿÿÿÿ8û±ò¯©-
+Msquid:S2140Ş")Use "java.util.Random.nextInt()" instead.(ÙÕø“ÿÿÿÿÿ8û±ò¯©-
+nsquid:S1192."PDefine a constant instead of duplicating this literal " was not found" 12 times.(›ªàÛ8±©û®©-
+\squid:S1197×"8Move the array designator from the variable to the type.(èü¹‹ÿÿÿÿÿ8û±ò¯©-
+fsquid:S00112Ç"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8û±ò¯©-
+fsquid:S00112á"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8û±ò¯©-
+fsquid:S00112™"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8û±ò¯©-
+Nsquid:S1905³"*Remove this unnecessary cast to "Integer".(İ›şÔıÿÿÿÿ8û±ò¯©-
+Esquid:S1659Û"!Declare "out" on a separate line.(ØÛ¶¸şÿÿÿÿ8û±ò¯©-
+Nsquid:S1905‚"*Remove this unnecessary cast to "Integer".(İ›şÔıÿÿÿÿ8û±ò¯©-
+esquid:S00112Y"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8û±ò¯©-
+Msquid:S1905W"*Remove this unnecessary cast to "Integer".(İ›şÔıÿÿÿÿ8û±ò¯©-
+esquid:S00112-"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8û±ò¯©-
+fsquid:S00112„"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8û±ò¯©-
+Msquid:S1905+"*Remove this unnecessary cast to "Integer".(İ›şÔıÿÿÿÿ8û±ò¯©-
+\
+squid:S106Ï"9Replace this use of System.out or System.err by a logger.(äıÆ şÿÿÿÿ8û±ò¯©-
+fsquid:S00112Ê"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8û±ò¯©-
+Jsquid:S1905À"&Remove this unnecessary cast to "int".(æªºœşÿÿÿÿ8±©û®©-
+fsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8±©û®©-
+[
+squid:S106a"9Replace this use of System.out or System.err by a logger.(äıÆ şÿÿÿÿ8û±ò¯©-
+fsquid:S00112Œ"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8û±ò¯©-
+Nsquid:S1905ß"*Remove this unnecessary cast to "Integer".(İ›şÔıÿÿÿÿ8û±ò¯©-
+Lsquid:S1905æ"-Remove this unnecessary cast to "Comparable".(»€Ì8û±ò¯©-
+Msquid:S2140“")Use "java.util.Random.nextInt()" instead.(ÙÕø“ÿÿÿÿÿ8û±ò¯©-
+[
+squid:S1065"9Replace this use of System.out or System.err by a logger.(äıÆ şÿÿÿÿ8û±ò¯©-
+\
+squid:S106£"9Replace this use of System.out or System.err by a logger.(İƒéœûÿÿÿÿ8û±ò¯©-
+U
+squid:S106R"9Replace this use of System.out or System.err by a logger.(³Š8û±ò¯©-
+[
+squid:S106x"9Replace this use of System.out or System.err by a logger.(Ğ‹ªÖùÿÿÿÿ8û±ò¯©-
+\
+squid:S106€"9Replace this use of System.out or System.err by a logger.(Ğ‹ªÖùÿÿÿÿ8û±ò¯©-
+ksquid:S11925"HDefine a constant instead of duplicating this literal "TIME: " 12 times.(äıÆ şÿÿÿÿ8±©û®©-
+xsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¯¬Ñõ8û±ò¯©-
+Dsquid:S2129{"!Remove this "Integer" constructor(†À”€üÿÿÿÿ8û±ò¯©-
+\
+squid:S106À"9Replace this use of System.out or System.err by a logger.(ò°Í üÿÿÿÿ8û±ò¯©-
+Lsquid:S2140*")Use "java.util.Random.nextInt()" instead.(ÙÕø“ÿÿÿÿÿ8û±ò¯©-
+\
+squid:S106½"9Replace this use of System.out or System.err by a logger.(äıÆ şÿÿÿÿ8û±ò¯©-
+V
+squid:S106M"9Replace this use of System.out or System.err by a logger.(¯á‡‰8û±ò¯©-
+W
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ùæ‘8±©û®©-
+esquid:S00112@"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8û±ò¯©-
+Msquid:S1905Å")Remove this unnecessary cast to "String".(©¶İªüÿÿÿÿ8û±ò¯©-
+fsquid:S00112µ"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8û±ò¯©-
+|squid:S2293N"YReplace the type specification in this constructor call with the diamond operator ("<>").(õÆ‚êşÿÿÿÿ8û±ò¯©-
+U
+squid:S106&"9Replace this use of System.out or System.err by a logger.(³Š8û±ò¯©-
+[
+squid:S1069"9Replace this use of System.out or System.err by a logger.(ò°Í üÿÿÿÿ8û±ò¯©-
+Msquid:S2140Ä")Use "java.util.Random.nextInt()" instead.(ÙÕø“ÿÿÿÿÿ8û±ò¯©-
+Msquid:S2140ğ")Use "java.util.Random.nextInt()" instead.(ÙÕø“ÿÿÿÿÿ8û±ò¯©-
+Msquid:S2140")Use "java.util.Random.nextInt()" instead.(ÙÕø“ÿÿÿÿÿ8û±ò¯©-
+esquid:S00112C"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8û±ò¯©-
+Dsquid:S2129P"!Remove this "Integer" constructor(†À”€üÿÿÿÿ8û±ò¯©-
+}squid:S2293ª"YReplace the type specification in this constructor call with the diamond operator ("<>").(şÀ¶Ÿùÿÿÿÿ8û±ò¯©-
+esquid:S001120"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8û±ò¯©-
+Nsquid:S1905Š"*Remove this unnecessary cast to "Integer".(İ›şÔıÿÿÿÿ8±©û®©-
+esquid:S00112\"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8û±ò¯©-
+qsquid:S11928"SDefine a constant instead of duplicating this literal "Reverse lookups..." 6 times.(Ùæ‘8û±ò¯©-
+fsquid:S00112–"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8û±ò¯©-
+Msquid:S2140Í")Use "java.util.Random.nextInt()" instead.(ë›áØøÿÿÿÿ8û±ò¯©-
+Esquid:S2129ƒ"!Remove this "Integer" constructor(†À”€üÿÿÿÿ8±©û®©-
+V
+squid:S106c"9Replace this use of System.out or System.err by a logger.(Ùæ‘8±©û®©-
+\
+squid:S106Œ"9Replace this use of System.out or System.err by a logger.(äıÆ şÿÿÿÿ8û±ò¯©-
+Dsquid:S2129$"!Remove this "Integer" constructor(†À”€üÿÿÿÿ8û±ò¯©-
+fsquid:S00112¸"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8±©û®©-
+Esquid:S2129ñ"!Remove this "Integer" constructor(©¶İªüÿÿÿÿ8û±ò¯©-
+Esquid:S2129¬"!Remove this "Integer" constructor(†À”€üÿÿÿÿ8û±ò¯©-
+qsquid:S3776¶"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(…ÉŠ8û±ò¯©-
+W
+squid:S106Ô"9Replace this use of System.out or System.err by a logger.(¯á‡‰8û±ò¯©-
+Esquid:S1905¿"&Remove this unnecessary cast to "int".(˜“¼–8±©û®©-
+fsquid:S00112ä"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8û±ò¯©-
+Esquid:S2129Å"!Remove this "Integer" constructor(©¶İªüÿÿÿÿ8û±ò¯©-
+\
+squid:S106¦"9Replace this use of System.out or System.err by a logger.(äıÆ şÿÿÿÿ8±©û®©-
+wsquid:S2293y"YReplace the type specification in this constructor call with the diamond operator ("<>").(¯¬Ñõ8û±ò¯©-
+Msquid:S2140²")Use "java.util.Random.nextInt()" instead.(ÙÕø“ÿÿÿÿÿ8û±ò¯©-
+Esquid:S1905¾"&Remove this unnecessary cast to "int".(é‹¨é8±©û®©-
+Msquid:S1905ñ")Remove this unnecessary cast to "String".(©¶İªüÿÿÿÿ8û±ò¯©-
+psquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 66 to the 15 allowed.(Çµí‘8±©û®©-
+Msquid:S1481¹")Remove this unused "temp" local variable.(â·Î¶ùÿÿÿÿ8û±ò¯©-
+Msquid:S2140‰")Use "java.util.Random.nextInt()" instead.(ÙÕø“ÿÿÿÿÿ8û±ò¯©-
+Esquid:S2129œ"!Remove this "Integer" constructor(©¶İªüÿÿÿÿ8û±ò¯©-
+Jsquid:S1905Á"&Remove this unnecessary cast to "int".(Óª´¹ÿÿÿÿÿ8û±ò¯©-
+Lsquid:S2140=")Use "java.util.Random.nextInt()" instead.(ÙÕø“ÿÿÿÿÿ8û±ò¯©-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(·÷¦Ïüÿÿÿÿ8±©û®©-
